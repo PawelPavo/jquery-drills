@@ -25,13 +25,13 @@ $(document).ready(function () {
         alert(text); 
         console.log('Pending files')
 
-        // $('div').append('<h2>' + text + '</h2>');
-        // $('h2').on('mouseover', function () {
-        //     $(this).css({ // How does 'this' work
-        //         'background-color': 'red',
-        //         'border-radious': '10px'
-        //     });
-        // })
+        $('div').append('<h2>' + text + '</h2>');
+        $('h2').on('mouseover', function () {
+            $('h2').css({
+                'background-color': 'red',
+                'border-radious': '10px'
+            });
+        })
 
         $('ul').append('<li>' + text + '</li>');
         $('li').on('click', function(){
