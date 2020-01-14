@@ -29,7 +29,7 @@ $(document).ready(function () {
         $('h2').on('mouseover', function () {
             $('h2').css({
                 'background-color': 'red',
-                'border-radious': '10px'
+                'border-radius': '10px'
             });
         })
 
