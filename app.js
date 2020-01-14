@@ -5,10 +5,12 @@
 $(document).ready(function () {
     $('#btnSubmit').attr('disabled', true);
     $('input').keyup(function () {
-        if ($('input').val().length != 0)
+        if ($('input').val().length != 0) {
             $('#btnSubmit').attr('disabled', false);
-        else
+        }
+        else {
             $('#btnSubmit').attr('disabled', true);
+        }
     });
 
     $('body').append('<div></div>');
